@@ -60,5 +60,31 @@ Instead of raw numbers, the agent provides **context**:
 
 ---
 
-## Architecture Overview
+## Architecture Overview:
+monday-bi-agent/
+│
+├── backend/
+│ ├── monday_client.py # monday.com API integration
+│ ├── data_cleaner.py # Data cleaning & normalization logic
+│ ├── bi_engine.py # Business intelligence & insights
+│ ├── app.py # Streamlit conversational app
+│ ├── test_cleaner.py # Step 3 validation tests
+│ └── test_bi_engine.py # BI logic tests
+│
+├── README.md
+├── decision-log.md
+└── requirements.txt
+
+---
+
+## Tech Stack
+
+- **Python**
+- **monday.com GraphQL API**
+- **Streamlit** (UI)
+- **Requests** (API calls)
+- **python-dateutil** (date parsing)
+
+---
+
 
